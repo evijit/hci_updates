@@ -295,7 +295,7 @@
                       <span class="background" style="background-image:url('images/wcloud.jpg')"></span>
                       <div class="wrap">
                         <!-- <p class="text-context"><strong>Exploratory statistics</strong></p> -->
-                        <h2 class="text-context"></h2>>Stats</h2>
+                        <h2 class="text-context">Stats</h2>
                         <br>
                         <p>→ The dataset consists of 9150 posts and 118956 comments.</p>
                         <p>→ The top 20 identical texts are removed from the dataset as these were either ads or bot texts.</p>
@@ -332,28 +332,17 @@
                       </section>
   
 
-                    <section class="bg-gradient-white">
-                        <span class="background-right" style="background-image:url('images/updr4.png');"></span>
-                        <div class="wrap">
-                          <div class="content-center">
-                            <!-- <p class="text-subtitle">Methodology</p> -->
-                            <!-- <h2>Exploratory statistics</h2> -->
-                            <p>NGrams don't really work, so we applied machine learning</p>
-                            
-                          </div>
-                        </div>
-                      </section>
-
-                      <section class="bg-gradient-white">
-                          <span class="background-right" style="background-image:url('images/updr4.png');"></span>
+                      <section class="slide-top">
+                          <span class="background" style="background-image:url('images/ner.png')"></span>
                           <div class="wrap">
-                            <div class="content-center">
-                              <!-- <p class="text-subtitle">Methodology</p> -->
-                              <h2>NER</h2>
-                              <p>Spacy</p>
-                              
-                            </div>
+                            <!-- <p class="text-context"><strong>Exploratory statistics</strong></p> -->
+                            <h2 class="text-context">Named Entity Recognition</h2>
+                            <br>
+                            <p>→ We needed a way to distill only the information that matters to us - the tech related words and people's reactions around those.</p>
+                            <p>→ Approach: To employ a NLP technique: Named Entity Recognition!</p>
+                            <p>→ We manually annotated 200 comments as TECH words and REACT words, and trained it on SpaCy, which uses the Iterative Dilated CNN technique for NERs.</p>
                           </div>
+                          <!-- .end .wrap -->
                         </section>
 
 
@@ -362,7 +351,7 @@
                             <div class="wrap">
                               <div class="content-center">
                                 <!-- <p class="text-subtitle">Methodology</p> -->
-                                <h2>NER</h2>
+                                <h2 class="text-context">Trained Model</h2>
                                 <p>Show cool spacy examples</p>
                                 
                               </div>
@@ -370,18 +359,21 @@
                           </section>
 
 
-                          <section class="bg-gradient-white">
-                              <span class="background-right" style="background-image:url('images/updr4.png');"></span>
-                              <div class="wrap">
-                                <div class="content-center">
-                                  <p class="text-subtitle">Event Scraping</p>
-                                  <!-- <h2>Event timeline</h2> -->
-                                  <p>We need to correlate the observations with events happening real life</p>
-                                  <p>Solutions: Grab a list of events from Techcrunch!</p>
-                                  
+                            <section class="slide-top">
+                                <span class="background" style="background-image:url('images/selenium.png')"></span>
+                                <div class="wrap">
+                                  <!-- <p class="text-context"><strong>Exploratory statistics</strong></p> -->
+                                  <h2 class="text-context">Event Scraping</h2>
+                                  <br>
+                                  <p>→ We need to correlate the observations with events happening real life</p>
+                                  <p>→ Solution: Grab a list of events from Techcrunch!</p>
+                                  <p>→ We used selenium and firefox to create a bot that scrapes the search page.</p>
                                 </div>
-                              </div>
-                            </section>
+                                <!-- .end .wrap -->
+                              </section>
+
+                           
+          
   
 
 
